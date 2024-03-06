@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Pizza Ordering</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <h2 class="order-pizza">Pizza Ordering</h2>
+
+        <div class="ordering-wrapper">
+
+            <div class="leftsection">
+
+                <label class="tape" for="typePizza">
+                    <h2 class="tapechoose">Choose Pizza Type </h2><br>
+                    <select class="form-select" id="pizzaType">
+                        <option disabled selected value="pizza">
+                            <p class="chouse">choose (pizza-1)</p>
+                        </option>
+                        <option value="pizza-1">pizza-1</option>
+                        <option value="pizza-2">pizza-2</option>
+                        <option value="pizza-3">pizza-3</option>
+                    </select>
+                </label>
+
+                <div id="pizza-box" class="price">
+                    <h1 class="dallar">$ <span id="pizzaPrice">4.33</span></h1>
+                </div>
+
+                <div class="pizzaBox">
+                    <img id="pizzaImg" class="image" src="./image/pizza-1 2.png" alt="pizza">
+                </div>
+            </div>
+
+
+            <div class="rightsection">
+
+
+                <h2 class="tape-name">Type Pizza Count</h2>
+                <input class="caunt" placeholder="type (2)" type="number">
+
+
+                <h2 class="adress">
+                    <img class="iconLogo" src="./icon/test.png" alt="location">Type delivery Adress
+                </h2>
+                <textarea class="adresName" placeholder="66H7+QPG, Tashkent, Toshkent Shahri"></textarea>
+
+
+
+                <div class="total">
+                    <h2 class="prise"> Total: 8.66 $</h2>
+                    <div class="Button">
+
+                        <form action="https://yuksalish-form-tester.vercel.app/" class="form"></form>
+                        <button class="orderbutton">
+                            <h2 class="orderOrder">order</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
